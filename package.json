@@ -1,0 +1,22 @@
+{
+  "name": "eslint-plugin-zk",
+  "version": "0.0.0",
+  "description": "ESLint rules for ZK",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "test": "touch file.ts ; jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learningstud/eslint-plugin-zk.git"
+  },
+  "keywords": [
+    "zk"
+  ],
+  "author": "learningstud",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/learningstud/eslint-plugin-zk/issues"
+  },
+  "homepage": "https://learningstud.github.com/eslint-plugin-zk"
+}
