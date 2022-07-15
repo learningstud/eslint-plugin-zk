@@ -4,7 +4,9 @@
   "description": "ESLint rules for ZK",
   "main": "dist/src/index.js",
   "scripts": {
-    "test": "touch file.ts ; jest --coverage"
+    "test": "touch file.ts ; jest --coverage",
+    "build": "tsc -b tsconfig.build.json",
+    "clean": "rm -fr ./dist"
   },
   "repository": {
     "type": "git",
